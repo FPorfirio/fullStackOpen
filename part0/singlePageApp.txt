@@ -1,0 +1,19 @@
+browser-->server: GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
+browser-->server: GET main.css
+server-->browser: main.css
+bowser--server: GET spa.js
+server-->browser: spa.js
+
+note over browser:
+browser starts executing js-code
+that requests JSON data from server 
+end note
+
+-Form submision-
+
+note over browser:
+browser intercepts form submission and re-render the document and send a xhr to server
+
+browser-->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 201(created)
