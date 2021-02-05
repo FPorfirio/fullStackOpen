@@ -1,0 +1,19 @@
+ .error {
+    background: grey;
+    height: 200;
+    width: 100%;
+    color: red;
+    font-size: 20;
+    border-radius: 25
+  }
+
+.success {
+    background: grey;
+    color: green;
+    font-size: 20;
+    border-radius: 25
+  }
+
+.what{
+  background: purple
+}
